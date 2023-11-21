@@ -71,11 +71,16 @@ input::placeholder {
 .abBox {
     position: relative;
     margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+
 }
 .abBox > .flex-box {
     display: flex;
     justify-content: center;
     /* background-color: aqua; */
+   
+    
 }
 
 .aBox,
@@ -87,16 +92,21 @@ input::placeholder {
 .aBox,
 .bBox {
     width: 450px;
+    text-align: center;
 }
 
 .btnBox {
     margin: 0 30px;
+    text-align: center;
+   
 }
 
 .aBox > h2,
 .bBox > h2 {
     padding-bottom: 15px;
     color: #fff;
+    
+    
 }
 
 #aBoxRow,
@@ -112,6 +122,7 @@ input::placeholder {
     border: 1px solid #ee7752;
     border-radius: 20px;
     background-color: #ee7752;
+   
 }
 
 .go {
@@ -138,6 +149,7 @@ input::placeholder {
     width: 450px;
     height: 400px;
     border: 3px solid white;
+    
 }
 
 .aInputClass,
@@ -153,6 +165,7 @@ input::placeholder {
     border-radius: 20px;
     border: 3px solid #fff;
     background-color: transparent;
+    
 }
 
 /* 버튼 */
@@ -228,6 +241,7 @@ input::placeholder {
     border-right: 2px solid #fff;
     transform: rotate(135deg);
     animation: upDown 1700ms infinite;
+    
 
 }
 
